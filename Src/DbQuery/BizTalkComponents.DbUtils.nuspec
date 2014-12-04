@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>BizTalkComponents.DbUtils</id>
+    <version>1.0.0.0</version>
+    <authors>Jörgen Bergström</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Methods to query a database</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>BizTalk</tags>
+  </metadata>
+  <files>
+    <file src="DbQuery.cs" target="content\BiztalkComponents.DbUtils\DbQuery.cs" />
+    <file src="IDbQuery.cs" target="content\BiztalkComponents.DbUtils\IDbQuery.cs" />
+  </files>
+</package>

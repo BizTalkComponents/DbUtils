@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{FFFDE081-1DA6-44F8-A018-A86DF4CE3111}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizTalkComponents.DbUtils", "Src\DbQuery\BizTalkComponents.DbUtils.csproj", "{BA3C1550-29DA-4987-9CFD-54D132356DFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA3C1550-29DA-4987-9CFD-54D132356DFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA3C1550-29DA-4987-9CFD-54D132356DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA3C1550-29DA-4987-9CFD-54D132356DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA3C1550-29DA-4987-9CFD-54D132356DFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
