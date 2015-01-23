@@ -59,7 +59,13 @@ namespace BizTalkComponents.DbUtils
                 DbCommand command = connection.CreateCommand();
                 command.CommandText = query;
 
-                result = (int)command.ExecuteScalar();
+                var cmdResult = command.ExecuteScalar();
+
+                if (cmdResult != null && cmdResult != DBNull.Value)
+                {
+                    result = (int)command.ExecuteScalar();
+                }
+
             }
             catch (Exception e)
             {
