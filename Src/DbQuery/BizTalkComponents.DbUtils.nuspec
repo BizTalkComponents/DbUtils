@@ -2,11 +2,11 @@
 <package >
   <metadata>
     <id>BizTalkComponents.DbUtils</id>
-    <version>1.0.0.2</version>
+    <version>1.0.0.3</version>
     <authors>Jörgen Bergström</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Methods to query a database</description>
-    <releaseNotes>Initial release</releaseNotes>
+    <releaseNotes>Assembly is signed</releaseNotes>
     <copyright>Copyright 2014</copyright>
     <tags>BizTalk</tags>
   </metadata>
