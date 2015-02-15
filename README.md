@@ -1,2 +1,1 @@
-DbUtils
-=======
+[![Build status](https://ci.appveyor.com/api/projects/status/github/BizTalkComponents/DbUtils?branch=master)](https://ci.appveyor.com/api/projects/status/github/BizTalkComponents/DbUtils/branch/master)
